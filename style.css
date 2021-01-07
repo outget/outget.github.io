@@ -2,14 +2,42 @@ body {
 	background-color: #272727;
 }
 
-h1 {
+.title {
 	text-align: center;
 	color: #8C0000;
+	background-color: black;
+	padding: 10px;
+	font-size: 200px;
 }
 
 p {
 	text-align: center;
 	color: #8C0000;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a{
+	display: block;
+	font-family: Arial;
+	color: white;
+	text-align: center;
+  	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #111;
 }
 
 .frank{
