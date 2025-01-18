@@ -5,3 +5,8 @@ footer {
     width:99%;
     height:60px;   /* Height of the footer */
 }
+
+body {
+    background-image: url('party.jpg');
+    background-size: 100%;
+}
